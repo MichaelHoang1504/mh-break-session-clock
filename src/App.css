@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.setting {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 15px auto;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #36454f;
+  color: white;
+  cursor: pointer;
+}
+h1{
+  font-weight: bold;
+  text-align: center;
+}
+
+h4{
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+span {
+  font-size: 24px;
+}
+
+.timer-wrapper {
+  text-align: center;
+  margin-top: 20px;  
+}
+
+.timer-wrapper .timer-display {
+  border: 2px solid #36454f;
+  border-radius: 15px;
+}
+
+#time-left {
+  font-size: 45px;
+  font-weight: bold;
+  height: 80%;
+  text-align: center;
+}
